@@ -69,4 +69,8 @@ const Home: NextPage = () => {
   );
 };
 
+const getStaticProps = () => {
+  console.log("HELLO FROM SERVER")
+}
+
 export default Home;
