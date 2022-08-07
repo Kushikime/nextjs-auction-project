@@ -1,0 +1,15 @@
+.container {
+    background-color: red;
+    border-radius: 25px;
+    max-width: 200px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: rgb(196, 0, 0);
+}
