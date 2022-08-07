@@ -1,4 +1,3 @@
-import { Typography } from '@material-ui/core';
 import Header from '../Header/Header';
 import styles from './Layout.module.css';
 

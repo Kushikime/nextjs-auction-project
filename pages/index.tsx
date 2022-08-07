@@ -2,12 +2,6 @@ import { Box } from '@mui/material';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import CardItem from '../components/CardItem/CardItem';
-import CatCard from '../components/cards/cat/CatCard';
-import { mockCatCardProps } from '../components/cards/cat/CatCard.mocks';
-import HeaderLayout from '../components/layouts/Header/HeaderLayout';
-import styles from '../styles/Home.module.css';
-import { NextPageWithLayout } from './page';
-
 const Home: NextPage = () => {
   return (
     <Box py={'100px'} px='100px'>
