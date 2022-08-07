@@ -1,5 +1,4 @@
 import Header from '../Header/Header';
-import styles from './Layout.module.css';
 
 export interface ILayout {
   children: any;
@@ -7,7 +6,7 @@ export interface ILayout {
 
 const Layout: React.FC<ILayout> = ({ children }) => {
   return (
-    <div className={styles.container}>
+    <div>
       <Header></Header>
       {children}
     </div>
