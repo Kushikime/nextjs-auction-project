@@ -2,7 +2,7 @@ import { createTheme } from "@mui/material";
 
 //@ts-ignore
 // import Poppins from '../public/fonts/poppins/poppins600.woff2';
-// //@ts-ignore
+//@ts-ignore
 // import PoppinsSemiBold from '/fonts/poppins/poppins.woff2';
 
 const theme = createTheme({
